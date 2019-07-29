@@ -1,0 +1,23 @@
+{
+  "name": "alex700/palindrome",
+  "description": "PHP class to check palindrome",
+  "authors": [
+    {
+      "name": "Alex Ryabov",
+      "email": "artvizi@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1",
+    "psr/http-message": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPUtils\\": "src/"
+    }
+  }
+}
